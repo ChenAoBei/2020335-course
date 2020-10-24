@@ -1,0 +1,16 @@
+title: 2020年北航仪器科学与光电工程学院，仪光科技实践3，智能小车第35组
+description: 2020年北航仪器科学与光电工程学院，仪光科技实践3，智能小车第35组。成员：陈傲北、高歌、徐燕、高可欣、柳恩钊。
+template:
+  repo: 2020335-template
+  name: '2020335'
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
